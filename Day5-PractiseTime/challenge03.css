@@ -1,0 +1,39 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    margin: 0 ;
+    font-family: Roboto;
+
+}
+.container{
+    color: #fff;
+    background-color: #23424A;
+    /* width:0%; */
+    margin: 0 auto;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.contentWrapper{
+    width: 85%;
+    margin: 0 auto;
+}
+.innerContent{
+    width: 60%;
+}
+
+h1{
+  font-size: 48px;
+}
+p{
+    font-size: 21px;
+}
+.button_learn{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #38CFD9;
+    border-radius: 20px;
+    color: #000;
+}

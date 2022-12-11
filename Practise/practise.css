@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Roboto;
+    background-color: #23424A;
+}
+.container{
+    
+    width: 90%;
+    margin: 5% auto;
+}
+.innerContainer{
+   width: 50%;  
+}
+.learnBtn{
+    padding: 10px 35px;
+    background-color: #38CFD9;
+    border-radius: 25px;
+    font-size: 21px;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 30px;
+    border: none;
+    text-transform: capitalize;
+}
+h1{
+    font-size:48px;
+    color:#fff;
+}
+p{
+    font: 21px Roboto;
+    color:#fff;
+    
+}

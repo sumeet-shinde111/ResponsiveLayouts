@@ -1,0 +1,43 @@
+/* INSTRUCTIONS
+ *
+ * 1) Limit the total width of
+ *    the .intro-conent to about half
+ *    of it's parent
+ *
+ * 2) Stop the text from overflowing
+ *    out the bottom at small screen
+ *    widths
+ *
+ * You may modify the HTML if needed
+ *
+ */
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    background: #23424a;
+    color: white;
+    
+    width: 80%;
+    max-width: 750px;  
+    /*
+    adding max width property benefits in larger screen.
+     If we remove max-width and try responvieness on larger screen the container stretches.
+     Where as if we use max-width property it the container takes width upto 750px and then
+     does not stretch.  
+    */
+    
+    margin: 0 auto;
+    padding: 2em;
+  }
+  
+  .intro-conent{
+    width: 50%;
+  }
